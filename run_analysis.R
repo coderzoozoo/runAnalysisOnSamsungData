@@ -1,6 +1,6 @@
 ## Download the file from the project data source url
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(fileUrl, "UCIData.zip", method="curl")
+download.file(fileUrl, "UCIData.zip", method="curl")
 
 ## unzip the files
 unzip("UCIData.zip")
